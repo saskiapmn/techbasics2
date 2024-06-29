@@ -22,13 +22,13 @@ The website targets specifically organizations and places, where they have a sho
 
 ## Features
 
-Login Functionality: Users can enter a username and password to log in. If the credentials match predefined values, the user is granted access; otherwise, an error message is shown.
-Service Options: Provides buttons to navigate to different services including News, Calendar, Previous Jobs, and New Jobs.
-Add/Edit Appointments: Allows users to add or edit appointments with a date and description.
-Display Calendar: Displays all the current appointments in a read-only text widget.
-News Section: A placeholder for upcoming news, which can be populated with news items.
-Job Listings and Job Details: Displays new job opportunities divided into categories like 'Within This Week', 'Next Week', and 'Next Month'. Clicking on a job displays its details (e.g., Waiter/Waitress, Cook, Eventhelper).
-Completed Jobs: Displays previous jobs the user has completed, such as Barkeeper.
+- Login Functionality: Users can enter a username and password to log in. If the credentials match predefined values, the user is granted access; otherwise, an error message is shown.
+- Service Options: Provides buttons to navigate to different services including News, Calendar, Previous Jobs, and New Jobs.
+- Add/Edit Appointments: Allows users to add or edit appointments with a date and description.
+- Display Calendar: Displays all the current appointments in a read-only text widget.
+- News Section: A placeholder for upcoming news, which can be populated with news items.
+- Job Listings and Job Details: Displays new job opportunities divided into categories like 'Within This Week', 'Next Week', and 'Next Month'. Clicking on a job displays its details (e.g., Waiter/Waitress, Cook, Eventhelper).
+- Completed Jobs: Displays previous jobs the user has completed, such as Barkeeper.
 
 
 ## Instructions: 
