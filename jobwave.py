@@ -1,6 +1,16 @@
+# instructions: install your virtual environments
+# import the needed libraries
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
+
+# download your needed pictures from the internet
+# Please note that all pictures I have used so far were created by myself on the website: Canva
+
+# whenopening the GUI you will be greeted by a front page and a enter button
+# afterwards a login page will be opened. You need the login information to get to the website.
+# Username: user  .  Password: 12345
+
 
 # Initialize global variables
 appointments = {}
@@ -52,14 +62,13 @@ def add_image(root, file_path):
     f1.pack()
 
 # Function for the third page with calendar functionality
+# Here you can add or edit your appointments. Fill in the name of your appointment and the date and it will be listed in the calender.
 def page_three():
     global next_label, september_label, date_var, appointment_entry, calendar_display, add_edit_button, calendar_info_label
 
     f1.destroy()
     enter_button.destroy()
-
     add_image(root, file_path="pictures/p11.png")
-
     next_label = tk.Label(text="Calendar",
                           relief=tk.RAISED,
                           bg='#291b62',
@@ -111,7 +120,7 @@ def page_three():
                           )
     calendar_info_label.place(x=225, y=30)
 
-
+# with this button you will be redirected to the main page
     back_button_2 = tk.Button(text="Back",
                              font='georgia 17 bold',
                              command=back_3,
@@ -120,7 +129,6 @@ def page_three():
     back_button_2.place(x=515, y=405)
 
 # Function definitions for other pages and the main window setup
-# (Include your existing page_one, page_two, etc. functions here)
 
 def back():
     f1.destroy()
@@ -184,6 +192,9 @@ def page_one():
                            )
     second_label.place(x=115, y=180)
 
+# On the login page, you have the possibility to access the website by using a username and a password. 
+# Please note that you have to click next to them, so that the box will appear. 
+
 def page_login():
     global frame, username_entry, password_entry, login_button, new_label
     f1.destroy()
@@ -200,8 +211,7 @@ def page_login():
                            fg="White"
                            )
     new_label.place(x=110, y=410)
-
-    # Creating widgets
+    
     login_label = tk.Label(frame, text="Login", bg='#4876ff', fg="#FFFFFF", font=("Georgia", 45))
     username_label = tk.Label(frame, text="Username", bg='#4876ff', fg="#FFFFFF", font=("Georgia", 16))
     username_entry = tk.Entry(frame, font=("Arial", 16))
@@ -209,7 +219,6 @@ def page_login():
     password_label = tk.Label(frame, text="Password", bg='#4876ff', fg="#FFFFFF", font=("Georgia", 16))
     login_button = tk.Button(frame, text="Login", bg="#333333", fg="#333333", font=("Georgia", 16), command=login)
 
-    # Placing widgets on the screen
     login_label.grid(row=0, column=0, columnspan=2, sticky="news", pady=40)
     username_label.grid(row=1, column=0)
     username_entry.grid(row=1, column=1, pady=20)
@@ -219,8 +228,9 @@ def page_login():
 
     frame.pack(pady=50)
 
+# A message will appear, whether you used the correct login information. 
 def login():
-    username = "saskia"
+    username = "user"
     password = "12345"
     if username_entry.get() == username and password_entry.get() == password:
         messagebox.showinfo(title="Login Success", message="You successfully logged in.")
@@ -429,6 +439,7 @@ def page_six():
                               )
     back_button.place(x=515, y=400)
 
+
 def example_1():
     global label_example_1, time_example_1, place_example_1, pay_example_1, back_button, add_button_1
     f1.destroy()
@@ -471,6 +482,7 @@ def example_1():
                               )
     back_button.place(x=515, y=400)
 
+    # Here you have the option to add this date to your calendar. Click on the button to be redirected to the calendar. 
     add_button_1 = tk.Button(text="Add to my Calendar",
                               font='georgia 17 bold',
                               command=calender,
