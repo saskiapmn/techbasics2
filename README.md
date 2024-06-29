@@ -10,7 +10,6 @@ my report, containing all the necessary information on how this application came
 and a README.file.
 
 JobWave
-
 Introduction
 
 Currently, employers who are looking for cheap and flexible labor, as well as people who can multi-task and act responsibly, are met with an increasing supply of university students who are looking into the part-time market and are having to work due to financial necessity (Curtis & Lucas, 2001) as housing prices in many cities in Germany are ever more increasing (I am Expat 2022). Younger generations, also called Gen Z, have clear ideas about what they desire in a job. Many want flexibility, variety but also diversity within their work life (Link Humans 2022).
@@ -38,3 +37,4 @@ Copy this repository and save it. Afterwards run it in PyCharm.
 
 Mac: python3 app.py
 Windows: python app.py
+
