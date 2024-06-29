@@ -5,7 +5,7 @@ Hi, this is Saskia Proßmann and this is my TechBasics II Exam project.
 You will be able to find in this repository: 
 
 my python code, which you will for running the application, 
-my pictures, necessary for making the GUI look like JobWave
+my pictures, necessary for making the GUI look like JobWave,
 my report, containing all the necessary information on how this application came to be
 and a README.file.
 
