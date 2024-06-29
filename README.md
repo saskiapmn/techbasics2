@@ -35,6 +35,7 @@ Completed Jobs: Displays previous jobs the user has completed, such as Barkeeper
 
 Copy this repository and save it. Afterwards run it in PyCharm.
 
+https://github.com/saskiapmn/techbasics2/blob/main/jobwave.py
 
 Mac: python3 app.py
 Windows: python app.py
