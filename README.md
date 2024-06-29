@@ -1,17 +1,17 @@
-Tech Basic II Exam project
+# Tech Basic II Exam project
 
 Hi, this is Saskia Proßmann and this is my TechBasics II Exam project.
 
 You will be able to find in this repository: 
 
-my python code, which you will for running the application, 
-my pictures, necessary for making the GUI look like JobWave,
-my report, containing all the necessary information on how this application came to be
-and a README.file.
+- my python code, which you will for running the application, 
+- my pictures, necessary for making the GUI look like JobWave,
+- my report, containing all the necessary information on how this application came to be
+- and a README.file.
 
-JobWave
+ # JobWave
 
-Introduction
+## Introduction
 
 Currently, employers who are looking for cheap and flexible labor, as well as people who can multi-task and act responsibly, are met with an increasing supply of university students who are looking into the part-time market and are having to work due to financial necessity (Curtis & Lucas, 2001) as housing prices in many cities in Germany are ever more increasing (I am Expat 2022). Younger generations, also called Gen Z, have clear ideas about what they desire in a job. Many want flexibility, variety but also diversity within their work life (Link Humans 2022).
 
@@ -20,7 +20,7 @@ For a lot of students, flexible part-time work is a way of experiencing the work
 The website targets specifically organizations and places, where they have a short-term demand, for example, if another worker gets sick and the employer needs a student to take over the shift for a few days. This app particularly wants to focus on jobs in the catering and service industry. 
 
 
-Features
+## Features
 
 Login Functionality: Users can enter a username and password to log in. If the credentials match predefined values, the user is granted access; otherwise, an error message is shown.
 Service Options: Provides buttons to navigate to different services including News, Calendar, Previous Jobs, and New Jobs.
@@ -31,7 +31,7 @@ Job Listings and Job Details: Displays new job opportunities divided into catego
 Completed Jobs: Displays previous jobs the user has completed, such as Barkeeper.
 
 
-Instructions: 
+## Instructions: 
 
 Copy this repository and save it. Afterwards run it in PyCharm.
 
